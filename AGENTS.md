@@ -465,7 +465,38 @@ Unless explicitly authorized.
 
 ---
 
-# 21. Validation Policy
+# 21. Security Review Policy
+
+Before completing any implementation verify:
+
+- No hardcoded secrets
+- No exposed credentials
+- Proper input validation
+- Proper authentication checks
+- Proper authorization checks
+- Sensitive data handled securely
+- Principle of least privilege followed
+
+Security issues have higher priority than feature delivery.
+
+---
+
+# 22. Performance Review Policy
+
+Before completing any implementation verify:
+
+- No unnecessary database queries
+- No unnecessary network requests
+- No unnecessary re-renders
+- No obvious memory leaks
+- No excessive resource consumption
+
+Performance optimizations must not reduce maintainability.
+
+---
+
+
+# 23. Validation Policy
 
 After implementation validate:
 
@@ -497,7 +528,7 @@ Validation is mandatory.
 
 ---
 
-# 22. Self Review Policy
+# 24. Self Review Policy
 
 Before completing any task verify:
 
@@ -519,7 +550,7 @@ STOP and fix the issue.
 
 ---
 
-# 23. Communication Policy
+# 25. Communication Policy
 
 ## Before Implementation
 
@@ -543,7 +574,7 @@ Communication must be concise and precise.
 
 ---
 
-# 24. Efficiency Policy
+# 26. Efficiency Policy
 
 Do not rewrite working code without a valid reason.
 
@@ -557,7 +588,7 @@ Prefer the simplest correct solution.
 
 ---
 
-# 25. Completion Policy
+# 27. Completion Policy
 
 A task is not complete until:
 
